@@ -10,9 +10,9 @@ namespace JWTAuthentication.ViewModels
     {
         [Required]
         [EmailAddress]
-        public int Email { get; set; }
+        public string Email { get; set; }
 
         [Required]
-        public int Password { get; set; }
+        public string Password { get; set; }
     }
 }
